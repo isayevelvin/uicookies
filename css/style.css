@@ -1,0 +1,362 @@
+.menu{
+    height: 90vh;
+    background: #212428;
+    overflow: hidden;
+}
+.menu .container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.menu .container .row{
+    display: flex;
+}
+.menu .container .row .col-2{
+    margin-top: 6%;
+}
+.menu .container .row .col-10{
+    margin-top: -3.5%;
+    margin-left: 45%;
+}
+.menu .container .row .col-10 ul{
+    list-style-type: none;
+
+}
+.menu .container .row .col-10 ul li{
+    display: inline;
+
+}
+.menu .container .row .col-10 ul li a{
+    text-decoration: none;
+    padding: 23px;
+    color: #fff;
+    font-weight: 700;
+    transition: 0.7s;    
+}
+.menu .container .row .col-10 ul li a:hover{
+    color: rgb(29, 143, 29);
+}
+.menu .container .row .col-10 ul li .search{
+    position: relative;
+}
+
+.menu .container .row .col-12{
+    width: 70%;
+    text-align: center;
+    margin-left: 18%;
+    margin-top: 7%;
+}
+.menu .container .row .col-12 p{
+    color: #fff;
+    font-weight: 350;
+    font-size: 70px;
+}
+main{
+    height: 350vh;
+    background-color: whitesmoke;
+
+}
+main .container-fluid{
+    width: 100%;
+}
+main .container-fluid .item{
+
+}
+main .container-fluid .item .col-12{
+
+}
+main .container-fluid .item .col-12 img{
+    max-width: 100%;
+}
+main .container{
+}
+main .products{
+    margin-top: 8%;
+
+}
+main .products .col-8{
+
+}
+main .products .col-8 .photo{
+    width: 800px;
+
+}
+main .products .col-8 .photo .inspire{
+    max-width: 100%;
+
+}
+main .products .col-8 .photo .action{
+    border: 1px solid rgba(7, 7, 7, 0.61);
+    height: 120px;
+    width: 800px;
+    background-color: rgba(7, 7, 7, 0.61);
+    padding: 30px;
+
+}
+main .products .col-8 .photo .action .need{
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+}
+main .products .col-8 .photo .action .browse{
+    border: 1px solid #80b341;
+    background-color: #80b341;
+    text-decoration: none;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 4px;
+    display: block;
+    width: 20%;
+    margin-left: 40%;
+    text-align: center;
+
+}
+
+main .products .col-8 .photo .action .need .envato{
+    width: 25%;
+}
+main .products .col-3{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+
+
+}
+main .products .col-3 .money{
+
+}
+main .products .col-3 .money .five{
+    font-size: 30px;
+    font-weight: 500;
+    color: #4c5357;
+
+}
+main .products .col-3 .money .remove{
+    width: 90%;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+main .products .col-3 .money .credit{
+    margin-left: 9px;
+
+}
+main .products .col-3 .money .free{
+    width: 90%;
+    margin-right: 13px;
+    
+}
+main .products .col-3 .money button{
+    width: 80%;
+    margin-bottom: 5px;
+
+}
+main .products .col-3 .money .folder{
+    color: #7b8996;
+
+}
+main .products .col-3 .money .tags{
+    color: #7b8996;
+
+}
+main .products .col-3 .money .share{
+    font-weight: 600;
+
+}
+main .products .col-3 .money .social{
+    list-style-type: none;
+    margin-right: 35px ;
+
+}
+main .products .col-3 .money .social li{
+    display: inline;
+    padding: 5px;
+
+
+}
+main .products .col-3 .money .social li a{
+    font-size: 24px;
+    color: #7b8996;
+
+}
+main .products .col-3 .money .social li a i{
+    transition: 0.7s;
+}
+main .products .col-3 .money .social li a i:hover{
+    transform: scale(1.2);
+}
+main .products .col-3 .money .social li .twitter:hover{
+    color: #00aeef;
+}
+main .products .col-3 .money .social li .facebook:hover{
+    color: #1877f2;
+
+}
+main .products .col-3 .money .social li .pinterest:hover{
+    color: #e60023;
+
+}
+main .products .col-3 .money .social li .google:hover{
+    color: #dd4b39;
+
+}
+
+main .products .col-8 .photo .action .the{
+    margin-top: 60px;
+    padding: 30px;
+
+}
+main .products .col-8 .photo .action .clean{
+    margin-top: 30px;
+    padding: 30px;
+
+}
+main .products .col-8 .photo .content .you{
+    font-size: 30px;
+    color: #7b8996;
+    padding-left: 30px;
+}
+main .products .col-8 .photo .action .picture{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 10px 10px 10px 60px;
+    margin-left: 100px;
+
+    
+    
+}
+main .products .col-8 .photo .action .picture .page{
+}
+
+main .products .col-8 .photo .action .picture .template{
+    margin-top: 30px;
+
+}
+main .products .col-8 .photo .action .picture .personal{
+    margin-top: 30px;
+
+}
+main .products .col-8 .photo .action .picture .travel{
+    margin-top: 30px;
+}
+main .products .col-8 .photo .action .picture a{
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    width: 65%;
+
+}
+main .products .col-8 .photo .action .content{
+    background-color: white;
+    margin-left: -30px;
+    margin-top: -47px;
+    width: 800px;
+}
+main .products .col-8 .photo .action .picture{
+    margin-left: -30px;
+    margin-top: -15px;
+    background-color: white;
+    height: 800px;
+    width: 800px;
+}
+main .products .col-8 .photo .action .four{
+    display: flex;
+    margin-top: 40px;
+    width: 800px;
+    
+    margin-left: -30px;
+}
+main .products .col-8 .photo .action .four a{
+    text-decoration: none;
+    color: #4a545a;
+    line-height: 8px;
+}
+main .products .col-8 .photo .action .four a span{
+    text-align: right;
+    display: block;
+}
+main .products .col-8 .photo .action .four .col-6{
+    margin-right: 5px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 25px;
+}
+footer{
+    background-color: #282e34;
+    margin-top: -30px;
+    height: 100vh;
+
+}
+footer .end{
+
+}
+footer .end .container{
+
+}
+footer .end .container .inbox{
+
+}
+footer .end .container .inbox .col-12{
+    
+
+}
+footer .end .container .inbox .col-12 .be{
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    
+
+}
+footer .end .container .inbox .col-12 .dress{
+    position: relative;
+    text-align: center;
+}
+footer .end .container .inbox .col-12 .dress .email{
+    background: rgba(0,0,0,.3);
+    color: white;
+    font-size: 24px;
+    padding: 15px 350px 15px 20px;
+
+}
+footer .end .container .inbox .col-12 .dress .sign{
+    background: #3295e8;
+    border: 1px solid #3295e8;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    top: 10px;
+    left: 790px;
+
+
+}
+footer .end .container .inbox .col-12 .dress .sign:hover{
+    background-color: rgba(255, 255, 255, 0.849)
+}
+
+footer .end .container .inbox .col-12 .reserve{
+    margin-top: 160px;
+    margin-left: -60px;
+
+}
+footer .end .container .inbox .col-12 .reserve .right{
+    color: #445a70;
+    
+
+}
+form input{
+    outline: none;
+}
+::placeholder{
+    font-weight: 500;
+}
+
+
+
+
+
+
+
